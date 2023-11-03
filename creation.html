@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Generic - Spectral by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="index.html">Spectral</a></h1>
+        <nav id="nav">
+          <ul>
+            <li class="special">
+              <a href="#menu" class="menuToggle"><span>Menu</span></a>
+              <div id="menu">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="creation.html">Creation</a></li>
+                  <li><a href="generation.html">Generate</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="logInUp.html">Sign Up/ Log In</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <article id="main">
+        <header>
+          <h2>Creation Board</h2>
+          <p>
+            In this section you access to create your own dataset for designing
+            Cabinets and Style
+          </p>
+        </header>
+        <section class="wrapper style5">
+          <div class="container">
+            <div class="left-part">
+              <div class="left-rectangle">
+                <div class="left-rectangle-inside">
+                  <div class="combo-box">
+                    <select id="mainCombo" onchange="updateSubCombo()">
+                      <option value="" disabled selected>
+                        Select a main option
+                      </option>
+                      <option value="Environment">Environment</option>
+                      <option value="Cabinet-Nessesary">
+                        Cabinet Nessessary
+                      </option>
+                      <option value="Cabinet">Cabinet</option>
+                      <option value="Style">Style</option>
+                      <option value="Island">Island Style</option>
+                    </select>
+                  </div>
+                  <div class="combo-box sub-combo-box">
+                    <select id="subCombo" onchange="showTextboxes()">
+                      <option value="" disabled selected>
+                        Select a sub option
+                      </option>
+                    </select>
+                  </div>
+                  <div id="textboxesdoor" class="hide">
+                    <h3>Title 1:</h3>
+                    <input type="text" id="textbox1" />
+                    <h3>Title 2:</h3>
+                    <input type="text" id="textbox2" />
+                    <h3>Title 3:</h3>
+                    <input type="text" id="textbox3" />
+                  </div>
+                  <div id="textboxeswindow" class="hide">
+                    <h3>Title 4:</h3>
+                    <input type="text" id="textbox4" />
+                    <h3>Title 5:</h3>
+                    <input type="text" id="textbox5" />
+                    <h3>Title 6:</h3>
+                    <input type="text" id="textbox6" />
+                  </div>
+                </div>
+                <div class="left-rectangle-inside-database"></div>
+              </div>
+            </div>
+            <div class="rightleft-part">
+              <div class="rightleft-borders">
+                <div class="rightleft-border"></div>
+                <div class="rightleft-border"></div>
+                <div class="rightleft-border"></div>
+              </div>
+            </div>
+            <div class="main-border">
+              <div class="rightright-border"></div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon brands fa-twitter"
+              ><span class="label">Twitter</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-facebook-f"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon brands fa-dribbble"
+              ><span class="label">Dribbble</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="icon solid fa-envelope"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Untitled</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
